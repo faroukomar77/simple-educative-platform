@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+header{
+    background-color: #F5F7FA;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #4741AF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation a {
+    color: #4741AF;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #6C63FF;
+}
+.stories{
+    background: url(images/Screenshot\ 2025-05-11\ 194844.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.icon{
+    color: #4741AF;
+    font-size: 1.5em;
+    padding-right: 40px;
+}
+section{
+    padding: 100px 200px;
+}
+.stories h2{
+    color:white;
+    font-size: 1.8em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.titles{
+    display: flex;
+    justify-self: content;
+    flex-direction: row;
+    flex-wrap: wrap;
+     
+}
+.title{
+    background-color:  white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.titles h3{
+    text-align: center;
+}
+.title :hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.stories a{
+    color: #4741AF;
+}
+.story{
+    color:white;
+    font-size: 1.8em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}

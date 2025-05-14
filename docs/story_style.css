@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header{
+    background-color: #F5F7FA;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #1853ca;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a {
+    /*color: #4741AF;*/
+    color: #1853ca;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+    padding-left: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.navigation a:hover{
+    color: #6C63FF;
+}
+section{
+    padding: 100px 200px;
+}
+.story{
+    
+    width: 100%;
+    min-height: 100vh;
+
+    background: url(images/Screenshot\ 2025-05-11\ 194844.png) no-repeat;
+    background-size: cover;
+}
+p{  width: 50%;
+    font-size: 1.45em;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+}
+h2{
+    font-size: 1.8em;
+    font-weight: 800;
+    padding-bottom: 20px;
+
+}
